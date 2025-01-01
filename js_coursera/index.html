@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Interactive Photo Gallery </title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+        <h1> Photo Gallery : Rachel Weisz </h1>
+  </header>
+  <div id="image"> 
+      Hover over an image to see a larger version.
+  </div>
+  <div id="gallery">
+    <img class="preview" src="rachel_pics/img1.jpg" alt="Weisz in a selfie" onmouseover="update(this); FocusImg(this) " onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)" >
+    <img class="preview" src="rachel_pics/img2.jpg" alt="Weisz at a conference"onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)" >
+    <img class="preview" src="rachel_pics/img3.jpg" alt="Weisz wearing a suit" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" focusout="BlurImg(this)" onmouseout="UnDo();BlurImg(this)" onload="Tab()" >
+    <img class="preview" src="rachel_pics/img4.jpg" alt="pookie" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)" onload="Tab()">
+    <img class="preview" src="rachel_pics/img5.jpg" alt="Weisz at a red carpet" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)"  onload="Tab()">
+    <img class="preview" src="rachel_pics/img6.jpg" alt="Rachel Weisz in a photoshoot" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)"  onload="Tab()" >
+    <img class="preview" src="rachel_pics/img7.jpg" alt="Weisz at an award show" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)"  onload="Tab()" >
+    <img class="preview" src="rachel_pics/img10.jpg" alt="Weisz in a black outfit" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)"  onload="Tab()" >
+    <img class="preview" src="rachel_pics/oscar.jpg" alt="Rachel Weisz with an Oscar" onmouseover="update(this);FocusImg(this)" onfocus="FocusImg(this);update(this)" onblur="BlurImg(this)" onmouseout="UnDo();BlurImg(this)" onload="Tab()" >
+  </div>
+  
+</body>
+
+</html>
