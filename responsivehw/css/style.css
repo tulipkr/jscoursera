@@ -49,10 +49,10 @@ div{
 
 @media screen and (min-width:772px){
 	div {
-        	width: 0.45vw;
-        	margin: 55px;
+        	width: 45vw;
+        	/*margin: 55px;
         	display: inline-block;
-        	padding: 19px;
+        	padding: 19px;*/
     	}
 	div img{
 		max-height:30vh;
